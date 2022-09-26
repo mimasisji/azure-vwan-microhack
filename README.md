@@ -106,7 +106,7 @@ Verify these resources are present in the portal.
 
 Credentials are identical for all VMs, as follows:
 - User name: AzureAdmin
-- Password: Microhack2020
+- Password: Microhack2022
 - Domain: micro-hack.local (this is on the ADDC VM only, the other VMs are not joined to this domain yet)
 
 You may log on to each VM through Bastion. Open a command prompt and type `curl localhost`. The response will be the VM name. When logging on to the ADDC VM before it is ready, you will see "Waiting for the Group Policy Client". That is OK, just let it run while you proceed with the lab.
